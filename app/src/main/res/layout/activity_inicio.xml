@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/fondoinicio">
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/inicio"
+        android:layout_weight="0.10"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Nombre"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombreI"
+        android:background="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Inicio"
+        android:textColor="#ffffff"
+        android:id="@+id/iniciar"
+        android:onClick="iniciar"
+        android:layout_weight="0.03"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/nombreI"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/registrar"
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:onClick="registrarse"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:layout_marginLeft="314dp"
+        android:layout_below="@+id/iniciar"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/puntos"
+        android:layout_marginLeft="84dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:text="@string/eliminar"
+        android:onClick="eliminar"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProyectoMoviles</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registrarse">Registrarse</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="registrar"><u>Registrarse</u></string>
+    <string name="eliminar"><u>Eliminar</u></string>
+    <string name="Nombre">Nombre de Usuario</string>
+    <string name="Inicio">Iniciar Sesión</string>
+    <string name= "title_activity_eliminar">Eliminar</string>
+
+</resources>
